@@ -81,7 +81,10 @@ function showPrice() {
 /*Add an Event Listener to the button that will display `myQuote` inside the paragraph with the id of `displayQuote` after the button is clicked.*/
 
 var myQuote = "Our lives are defined by opportunities; even the ones we miss.";
-
+var buttonElem = document.getElementById("Benjamin");
+buttonElem.addEventListener("click", function() {
+	document.getElementById("displayQuote").innerHTML = myQuote;
+});
 
 //8. Say It again, Randomly
 /*Create a function that will generate a random quote from the variable below after clicking on the button.*/
