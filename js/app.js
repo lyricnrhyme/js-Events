@@ -42,10 +42,22 @@ function zoom(){
 
 Next, create a function named valueMenu that will display your favorite items in the paragraph the the id of `menu` after clicking on the showMenu paragraph.*/
 
+var menuItems = ["Filet O Fish", "Oreo McFlurry", "Egg McMuffin"];
+
+function valueMenu() {
+	// console.log("test");
+	var menuElem = document.getElementById("menu");
+	for (var i=0; i<menuItems.length; i++){
+		menuElem.innerHTML = menuItems;
+	}
+}
 
 //5. Gin.
 /*Create a function named redFace that will change the paragraph text to red and a font size of 30px after clicking on the text.*/
 
+function redFace() {
+
+}
 
 //6. Peanut Butter Cup Oreos
 /*Create a function `showPrice` that will add the price of `$5.55` inside the paragraph with the id `price` after hovering your mouse over the paragraph.*/
