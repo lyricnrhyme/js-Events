@@ -56,7 +56,9 @@ function valueMenu() {
 /*Create a function named redFace that will change the paragraph text to red and a font size of 30px after clicking on the text.*/
 
 function redFace() {
-
+	var drinkElem = document.getElementById("drink");
+	drinkElem.style.color = "red";
+	drinkElem.style.fontSize = "30px";
 }
 
 //6. Peanut Butter Cup Oreos
